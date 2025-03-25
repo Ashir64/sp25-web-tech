@@ -1,0 +1,514 @@
+body{
+    margin: 0px;
+}
+.logo{
+    align-content: center;
+    padding: 0px 20px 0px 20px;
+    flex-grow: 1;
+}
+.image_logo{
+    width: 150px;
+    align-content: center;
+}
+.header{
+    height: 90px;
+    border-bottom: solid;
+    display: flex;
+
+}
+.search-box{
+    height: 50px;
+    width: 650px;
+    border-radius: 50px ;
+    background-color: rgb(245, 240, 240);
+    border: none;
+    padding-left: 35px;
+    font-size: 15px;
+    
+
+    
+}
+.search{
+    align-content: center;
+    padding-left: 70px;
+    flex-grow: 3;
+}
+.profile-image{
+    width: 25px;
+      
+}
+.opt{
+    border: none;
+    background-color: white;
+    cursor:pointer;
+}
+.fav{
+    width: 25px;
+      
+}
+.cart{
+    width: 23px;
+      
+}
+.options{
+    align-content: center;
+    flex-grow: 1;
+}
+.menu{
+    background-color: black;
+    height: 35px;
+    align-content: center;
+    text-align: center;
+}
+.menuo{
+    color: white;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.5s;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.menuo:hover{
+    background-color: white;
+    color: black;
+
+}
+.announcement{
+    background-color: black;
+    height: 80px;
+    align-content: center;
+    text-align: center;
+}
+.pat1{
+
+}
+
+.p1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.p2{
+    color: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.category{
+    padding: 5px;
+    display: flex;
+    padding-left: 69px;
+    padding-right: 69px;
+}
+.category-box{
+    margin-right: 8px;
+    margin-left: 8px;
+    text-align: center;
+    align-content: center;
+    cursor: pointer;
+}
+.c-image{
+    border-radius: 50%;
+    width: 110px;
+    
+}
+.main-image{
+    position: relative;
+
+}
+.image-main{
+    width:100% ;
+    height: 630px;
+}
+
+.shop-button{
+    background-color: rgba(245, 245, 220, 0);
+    color: white;
+    border: solid;
+    border-radius: 5px;
+    cursor: pointer;
+    border-width: 2px;
+    font-weight: bold;
+    width: 200px;
+    height: 40px;
+    font-size: larger;
+    position: relative;
+    top: -90px;
+    left: 1180px;
+    transition: 0.2s;
+}
+.shop-button:hover{
+    background-color: white;
+    color: black;
+}
+
+.pat2{
+    text-align: center;
+    align-content: center;
+    height: 60px;
+}
+.ticker-wrapper {
+    background-color: white;
+    color: black;
+    padding: 10px 0;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.ticker {
+    display: flex;
+    animation: ticker 30s linear infinite;
+    white-space: nowrap;
+}
+
+.ticker-item {
+    padding: 0 50px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+@keyframes ticker {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+.ticker-wrapper2 {
+    background-color: white;
+    color: black;
+    padding: 10px 0;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.ticker2 {
+    display: flex;
+    animation: ticker 8s linear infinite;
+    white-space: nowrap;
+}
+
+.ticker-item2 {
+    padding: 0px;
+   
+    cursor: pointer;
+}
+
+@keyframes ticker2 {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+.block3{
+    background-color: black;
+    width: 100%;
+    height: 150px;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    text-align: center;
+}
+.pb1{
+    color: white;
+    display: inline-block;
+    font-style: italic;
+    font-size: 40px;
+    font-weight: bold;
+    margin-right: 70px;
+}
+.pb2{
+    color: white;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    padding-right: -15px;
+}
+.block4{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.b41{
+    background-image: url(b41.webp);
+    height: 500px;
+    flex-grow: 1;
+    background-size: cover;
+    margin-right: 15px;
+    margin-left: 15px;
+    
+    
+}
+.b4txt{
+    color: white;
+    font-size: 28px;
+    padding-top: 330px;
+    padding-left: 30px;
+    font-weight: bold;
+}
+.b42{
+    background-image: url(b42.webp);
+    height: 500px;
+   flex-grow: 1;
+    background-size: cover;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.b43{
+    background-image: url(b43.webp);
+    height: 500px;
+    flex-grow: 1;
+    background-size: cover;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.b4button{
+    width: 90%;
+    height: 40px;
+    margin-left: 20px;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: white;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 1s;
+    border: solid;
+}
+.b4button:hover{
+    background-color: white;
+    color: black;
+}
+.block5{
+
+}
+.b5txt{
+    color: black;
+    font-weight: bold;
+    font-size: 50px;
+    display: inline-block;
+    margin-right: 200px;
+    margin-left: 20px;
+
+}
+.b5button{
+    width: 200px;
+    height: 35px;
+    text-align: center;
+    background-color: rgba(249, 252, 255, 0.964);
+    border-width: 1px;
+    border-color: white;
+    margin-right: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.b5button:hover{
+    opacity: 0.5;
+}
+
+.b51button{
+    height: 35px;
+    width: 200px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: 0.2ms;
+}
+.b51button:hover{
+    opacity: 0.5;
+}
+.block6{
+    display: flex;
+    position: relative;
+}
+.b6-image{
+    margin-right: 10px;
+    height: 500px;
+    width: 100%;
+    cursor: pointer;
+    position: relative;
+}
+.b6-image:hover{
+   
+}
+.b61{
+    flex-grow: 1;
+    margin-right: 10px;
+}
+.b62{
+    flex-grow: 1;
+    margin-right: 10px;
+}
+.b63{
+    flex-grow: 1;
+    margin-right: 10px;
+}
+.b64{
+    flex-grow: 1;
+    margin-right: 10px;
+}
+.main-image2{
+    position: relative;
+
+}
+.image-main2{
+    width:100% ;
+    height: 630px;
+}
+
+.shop-button2{
+    background-color: rgba(245, 245, 220, 0);
+    color: white;
+    border: solid;
+    border-radius: 5px;
+    cursor: pointer;
+    border-width: 2px;
+    font-weight: bold;
+    width: 200px;
+    height: 40px;
+    font-size: larger;
+    position: relative;
+    top: -90px;
+    left: 1180px;
+    transition: 0.2s;
+}
+.shop-button2:hover{
+    background-color: white;
+    color: black;
+}
+.block7{
+    margin-top: 0%;
+    height: 100px;
+}
+.block8{
+    display: flex;
+    margin-bottom: 50px;
+}
+.b8-image{
+    width: 100%;
+}
+.b81{
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+.b82{
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+.b83{
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+.b84{
+    flex-grow: 1;
+    margin-right: 10px;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+    color: rgb(51, 51, 51);
+}
+
+.subscribe-section {
+    margin-top: 0px;
+    text-align: center;
+    padding: 50px;
+    background-color: rgb(247, 247, 247);
+}
+
+.subscribe-section h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.subscribe-section p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.subscribe-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.subscribe-form input {
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 4px;
+}
+
+.subscribe-form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.subscribe-section .terms {
+    font-size: 14px;
+    color: rgb(102, 102, 102);
+}
+
+.subscribe-section .terms a {
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+
+.footer-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    background-color: rgb(255, 255, 255);
+}
+
+.footer-column {
+    max-width: 200px;
+}
+
+.footer-column h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-column ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 8px;
+}
+
+.footer-column ul li a {
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+}
+
+.footer-column ul li a:hover {
+    text-decoration: underline;
+}
