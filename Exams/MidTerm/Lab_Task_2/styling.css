@@ -1,0 +1,75 @@
+body {
+    background-color: rgb(16, 0, 109);
+    
+}
+
+#form {
+    width: 500px;
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 15px;
+    font-size: 15px;
+}
+
+#form h1 {
+    color: black;
+    text-align: center;
+}
+
+.input-control {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1px;
+}
+
+.input-control label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.input-control input {
+    border: 2px solid rgb(0, 24, 131);
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+}
+
+.input-control input:focus {
+    outline: none;
+    border-color: blue;
+}
+
+.input-control.error input {
+    border-color: red;
+}
+
+.input-control.success input {
+    border-color: green;
+}
+
+.input-control .error {
+    color: red;
+    font-size: 12px;
+    height: 15px;
+    margin-top: 5px;
+}
+
+#form button {
+    padding: 12px;
+    margin-top: 10px;
+    width: 100%;
+    color: white;
+    background-color: rgb(8, 19, 125);
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#form button:hover {
+    background-color: aqua;
+    color: black;
+}

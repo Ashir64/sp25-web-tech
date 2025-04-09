@@ -1,0 +1,58 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="styling.css">
+    <script defer src="main.js"></script>
+</head>
+<body>
+    <div class="container">
+        <form id="form" action="/">
+            <h1>Form Validation</h1>
+            <div class="input-control">
+                <label for="username">Username</label>
+                <input id="username" name="username" type="text" placeholder="abc123">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="text" placeholder="abc@mail.com">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="address">Address</label>
+                <input id="address" name="address" type="text" placeholder="city street">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="credit-card">Credit Card</label>
+                <input id="credit-card" name="credit-card" type="text" placeholder="1234-5678-9123-4568">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="cvc">CVC</label>
+                <input id="cvc" name="cvc" type="text" placeholder="123">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="expiry">Expiry Date</label>
+                <input id="expiry" name="expiry" type="text" placeholder="MM/YY">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="password">Password</label>
+                <input id="password" name="password" type="password" placeholder="#####">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="password2">Confirm Password</label>
+                <input id="password2" name="password2" type="password" placeholder="#####">
+                <div class="error"></div>
+            </div>
+            <button type="submit">Sign Up</button>
+        </form>
+    </div>
+</body>
+</html>
